@@ -8,8 +8,11 @@ sudo rm -rf /srv/*
 ## copy salt content into /srv
 sudo cp -R salt /srv
 
-#copy pillar content into /srv/pillar
+## copy pillar content into /srv/pillar
 sudo cp -R pillar /srv/pillar
+
+## copy formulas content into /srv/formulas
+sudo cp -R formulas /srv/formulas
 
 # copy salt master conf into /etc/salt/
 sudo cp master /etc/salt/
