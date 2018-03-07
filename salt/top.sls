@@ -4,3 +4,5 @@ base:
     - ssh
     - users
     - nginx
+    - redis-server
+    - mongodb
