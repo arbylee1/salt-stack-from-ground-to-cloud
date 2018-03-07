@@ -6,3 +6,4 @@ base:
     - nginx
     - redis-server
     - mongodb
+    - php7
