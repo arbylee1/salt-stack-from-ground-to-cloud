@@ -1,6 +1,6 @@
 redis-server:
   cmd.run:
-    - name:
+    - name: |
         cd /tmp
         wget http://download.redis.io/redis-stable.tar.gz
         tar xvzf redis-stable.tar.gz
