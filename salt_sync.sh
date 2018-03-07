@@ -15,8 +15,8 @@ sudo cp -R pillar /srv/pillar
 sudo cp -R formulas /srv/formulas
 
 ## copy keys content into /etc/salt/keys
-sudo cp -R keys/* /etc/salt/keys/
-sudo chmod 600 /etc/salt/keys/*
+sudo cp -R keys/* /etc/salt/keys
+sudo chmod 700 /etc/salt/keys/*
 
 ## copy cloud content into /etc/salt/
 sudo cp -R cloud/* /etc/salt/
